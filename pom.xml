@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.adamcin</groupId>
+		<artifactId>net.adamcin.parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>net.adamcin.cqplatform</groupId>
+	<artifactId>cqplatform-reactor</artifactId>
+	<version>1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+    <url>http://adamcin.github.com/${project.artifactId}</url>
+    <inceptionYear>2012</inceptionYear>
+    <name>CQ Platform POM Reactor</name>
+    <description>Reactor for CQ Platform POMs</description>
+
+	<properties>
+		<encoding>UTF-8</encoding>
+	</properties>
+
+    <scm>
+        <url>https://github.com/adamcin/${project.artifactId}</url>
+        <developerConnection>scm:git:git@github.com:adamcin/${project.artifactId}.git</developerConnection>
+        <connection>scm:git://github.com/adamcin/${project.artifactId}.git</connection>
+    </scm>
+
+    <issueManagement>
+        <system>github</system>
+        <url>http://github.com/adamcin/${project.artifactId}/issues/</url>
+    </issueManagement>
+
+	<modules>
+		<module>cqplatform_5_5_0</module>
+	</modules>
+
+</project>
