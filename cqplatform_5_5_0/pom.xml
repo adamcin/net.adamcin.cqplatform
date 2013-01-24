@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>net.adamcin</groupId>
-        <artifactId>net.adamcin.parent</artifactId>
-        <version>1-SNAPSHOT</version>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
     </parent>
 
     <groupId>net.adamcin.cqplatform</groupId>
